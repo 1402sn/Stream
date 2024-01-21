@@ -26,11 +26,11 @@ client.on('ready', async () => {
     .setApplicationId('1116621382466412614')
     .setType('STREAMING')
     .setURL('https://youtu.be/ZAPi_WGreGM?si=CTCJA53TFT8LeGYW') //Must be a youtube video link 
-    .setState('Solly Is Riel=))')
+    .setState('Like A Clown=))')
     .setName('Solly Aka Sully')
-    .setDetails(`Sollyy [${formatTime()}]`)
+    .setDetails(`Sollyy'; '[${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1198631179730034788/anime-anme.gif?') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1198638545712197663/d0a11aaba645c59a0f657ef5c64be9ab.gif?') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Belive in yourself, bro!') //Text when you hover the Large image
     .setAssetsSmallImage('small_img') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Maybe we?') //Text when you hover the Small image
