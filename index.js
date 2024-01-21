@@ -30,7 +30,7 @@ client.on('ready', async () => {
     .setName('')
     .setDetails(`Valorant [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://images-ext-2.discordapp.net/external/xi-twwDMcXMMUbEhwe6rvyeQNDZsm2BkRBWYqJJKL_c/https/i.pinimg.com/564x/d7/4e/48/d74e484eaf0b09a687edd98a1942f5b1.jpg?format=webp') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://images-ext-2.discordapp.net/external/xi-twwDMcXMMUbEhwe6rvyeQNDZsm2BkRBWYqJJKL_c/https/i.pinimg.com/564x/d7/4e/48/d74e484eaf0b09a687edd98a1942f5b1.jpg') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Boring') //Text when you hover the Large image
     .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Twitch') //Text when you hover the Small image
