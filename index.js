@@ -30,7 +30,7 @@ client.on('ready', async () => {
     .setName('')
     .setDetails(`Valorant [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media1.tenor.com/m/ZQndYO4NwBcAAAAC/gojo-satoru.gif') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://images-ext-2.discordapp.net/external/yZit6rCylO48frULL-V_Ssn2OOuaWkkGnYXiUwSi4eo/https/media1.tenor.com/m/ZQndYO4NwBcAAAAC/gojo-satoru.gif') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Boring') //Text when you hover the Large image
     .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Twitch') //Text when you hover the Small image
