@@ -32,7 +32,7 @@ client.on('ready', async () => {
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1198631179730034788/anime-anme.gif?') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Belive in yourself, bro!') //Text when you hover the Large image
-    .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('small_img') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Maybe we?') //Text when you hover the Small image
     .addButton('Ｗａｔｃｈ 👀', 'https://youtube.com/playlist?list=PL954J2wbiE1_Q-UzsL96dbvEQpmVrqAWO&si=m4BPSEUZT728ENyb')
     .addButton('Ｈｅｌｌ 👹', 'https://discord.com/invite/vn-g');
