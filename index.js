@@ -30,7 +30,7 @@ client.on('ready', async () => {
     .setName('Solly Aka Sully')
     .setDetails(`Sollyy [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1198612468403023922/6edad89ec8ecc9218cee7ef86e2a8630.jpg?') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1198648374837121064/images.jpg?') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('💀') //Text when you hover the Large image
     .setAssetsSmallImage('https://media.discordapp.net/attachments/1116694463658598412/1198643177129775215/600ac0f84c54fbf4c3fe110db59f4d9c.jpg?') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('🐧') //Text when you hover the Small image
