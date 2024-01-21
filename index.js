@@ -27,7 +27,7 @@ client.on('ready', async () => {
     .setType('STREAMING')
     .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
     .setState('Recording')
-    .setName('')
+    .setName('Solly Aka Sully')
     .setDetails(`Valorant [${formatTime()}]`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://media.discordapp.net/attachments/935045371393114202/1198569253952045107/ac8e5269067e52df4175d74b21f210fa.jpg?') //You can put links in tenor or discord and etc.
