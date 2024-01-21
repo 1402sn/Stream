@@ -26,16 +26,16 @@ client.on('ready', async () => {
     .setApplicationId('1116621382466412614')
     .setType('STREAMING')
     .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
-    .setState('Recording')
+    .setState('Solly Is Riel=))')
     .setName('Solly Aka Sully')
     .setDetails(`Valorant [${formatTime()}]`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://media.discordapp.net/attachments/935045371393114202/1198569253952045107/ac8e5269067e52df4175d74b21f210fa.jpg?') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('Boring') //Text when you hover the Large image
+    .setAssetsLargeText('Belive in yourself, bro') //Text when you hover the Large image
     .setAssetsSmallImage('https://media.discordapp.net/attachments/935045371393114202/1198569943986360360/WRr68yodFG2R8Iwr2WgbA7D3t0m3AiMHpymvrJBbY3U.png?') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('Twitch') //Text when you hover the Small image
-    .addButton('Watch', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ')
-    .addButton('Donate', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+    .setAssetsSmallText('Maybe me?') //Text when you hover the Small image
+    .addButton('Watch 👀', 'https://youtube.com/playlist?list=PL954J2wbiE1_Q-UzsL96dbvEQpmVrqAWO&si=m4BPSEUZT728ENyb')
+    .addButton('Hell 👹', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
