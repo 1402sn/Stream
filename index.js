@@ -28,10 +28,10 @@ client.on('ready', async () => {
     .setURL('https://youtu.be/ZAPi_WGreGM?si=CTCJA53TFT8LeGYW') //Must be a youtube video link 
     .setState('Like A Clown=))')
     .setName('Solly Aka Sully')
-    .setDetails(`Sollyy'; '[${formatTime()}]`)
+    .setDetails(`'Sollyy' [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1198638545712197663/d0a11aaba645c59a0f657ef5c64be9ab.gif?') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('Belive in yourself, bro!') //Text when you hover the Large image
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1040981594669862935/1136385712976040047/tumblr_b0289485ad6b2ebe4f07672af8eea462_a9e6553f_400.gif?') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('soly') //Text when you hover the Large image
     .setAssetsSmallImage('small_img') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Maybe we?') //Text when you hover the Small image
     .addButton('Ｗａｔｃｈ 👀', 'https://youtube.com/playlist?list=PL954J2wbiE1_Q-UzsL96dbvEQpmVrqAWO&si=m4BPSEUZT728ENyb')
