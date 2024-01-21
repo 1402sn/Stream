@@ -30,7 +30,7 @@ client.on('ready', async () => {
     .setName('Solly Aka Sully')
     .setDetails(`Valorant [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1198627604660494397/IMG_20240121_205716_14_x_5_inch.jpg?') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1198629172424224948/8694377b76639759687783e4794ae877_1.webp?') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Belive in yourself, bro!') //Text when you hover the Large image
     .setAssetsSmallImage('https://media.discordapp.net/attachments/1116694463658598412/1198621245701373962/IMG_20240121_203028_250_x_187_pixel.jpg?') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Maybe we?') //Text when you hover the Small image
