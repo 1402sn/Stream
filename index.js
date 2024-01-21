@@ -30,12 +30,12 @@ client.on('ready', async () => {
     .setName('Solly Aka Sully')
     .setDetails(`Valorant [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1198617352342876180/IMG_20240121_201619_725_x_207_pixel.jpg?') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1198621238587822160/IMG_20240121_203153_725_x_207_pixel.jpg?') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Belive in yourself, bro!') //Text when you hover the Large image
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1116694463658598412/1198615806213378208/ad94c1fc7987e53f6252ffb7bcbdaa3b.jpg?') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1116694463658598412/1198621245701373962/IMG_20240121_203028_250_x_187_pixel.jpg?') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Maybe we?') //Text when you hover the Small image
-    .addButton('Watch 👀', 'https://youtube.com/playlist?list=PL954J2wbiE1_Q-UzsL96dbvEQpmVrqAWO&si=m4BPSEUZT728ENyb')
-    .addButton('Hell 👹', 'https://discord.com/invite/vn-g');
+    .addButton('Ｗａｔｃｈ 👀', 'https://youtube.com/playlist?list=PL954J2wbiE1_Q-UzsL96dbvEQpmVrqAWO&si=m4BPSEUZT728ENyb')
+    .addButton('Ｈｅｌｌ 👹', 'https://discord.com/invite/vn-g');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
