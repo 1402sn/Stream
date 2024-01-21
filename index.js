@@ -10,7 +10,7 @@ keepAlive();
 function formatTime() { //Credits to himika#0001 and never#0001
   const date = new Date();
   const options = {
-    timeZone: 'America/New_York', //https://www.zeitverschiebung.net/en/ and find your city and enter here
+    timeZone: 'Asia/Ho_Chi_Minh', //https://www.zeitverschiebung.net/en/ and find your city and enter here
     hour12: true,
     hour: 'numeric',
     minute: 'numeric'
@@ -30,7 +30,7 @@ client.on('ready', async () => {
     .setName('')
     .setDetails(`Valorant [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://i.pinimg.com/236x/58/8a/3d/588a3d44f03a293f7b993e14c347da46.jpg') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Boring') //Text when you hover the Large image
     .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Twitch') //Text when you hover the Small image
