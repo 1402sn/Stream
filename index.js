@@ -35,7 +35,7 @@ client.on('ready', async () => {
     .setAssetsSmallImage('https://media.discordapp.net/attachments/1116694463658598412/1198875391079751681/588a3d44f03a293f7b993e14c347da46.jpg?') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('?') //Text when you hover the Small image
     .addButton('Ｗａｔｃｈ 👀', 'https://youtube.com/playlist?list=PL954J2wbiE1_Q-UzsL96dbvEQpmVrqAWO&si=m4BPSEUZT728ENyb')
-    .addButton('Ｈｅｌｌ 👹', 'https://discord.com/invite/vn-g');
+    .addButton('Ｈｅｌｌ 👹', 'https://discord.com/invite/UsYZRFFfrK');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "online" }); //dnd, online, idle, offline
