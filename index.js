@@ -27,10 +27,10 @@ client.on('ready', async () => {
     .setType('STREAMING')
     .setURL('https://youtu.be/ZAPi_WGreGM?si=CTCJA53TFT8LeGYW') //Must be a youtube video link 
     .setState('Belive in yourself, and that all you have!')
-    .setName('Solly Aka Sully')
+    .setName('Solly')
     .setDetails(`Sollyy [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1198648374837121064/images.jpg?') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1198605807118454885/1198839728431173734/Untitled574_20240121220052.png?ex=65c05d80&is=65ade880&hm=06ea48403dc03e1c76f5111f44e1765fc68701d5965c98f34c01baaa2b69ba77&=&format=webp&quality=lossless&width=1305&height=795') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('💀') //Text when you hover the Large image
     .setAssetsSmallImage('https://media.discordapp.net/attachments/1116694463658598412/1198643177129775215/600ac0f84c54fbf4c3fe110db59f4d9c.jpg?') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('🐧') //Text when you hover the Small image
@@ -38,7 +38,7 @@ client.on('ready', async () => {
     .addButton('Ｈｅｌｌ 👹', 'https://discord.com/invite/vn-g');
 
   client.user.setActivity(r);
-  client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
+  client.user.setPresence({ status: "online" }); //dnd, online, idle, offline
 
   let prevTime = null;
   setInterval(() => {
