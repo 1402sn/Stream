@@ -30,9 +30,9 @@ client.on('ready', async () => {
     .setName('Solly')
     .setDetails(`Sollyy [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1198858578916814898/images.jpg?') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1198615531259965470/8694377b76639759687783e4794ae877.jpg?') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('💀') //Text when you hover the Large image
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1116694463658598412/1198643177129775215/600ac0f84c54fbf4c3fe110db59f4d9c.jpg?') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1116694463658598412/1198615806213378208/ad94c1fc7987e53f6252ffb7bcbdaa3b.jpg?') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('🐧') //Text when you hover the Small image
     .addButton('Ｗａｔｃｈ 👀', 'https://youtube.com/playlist?list=PL954J2wbiE1_Q-UzsL96dbvEQpmVrqAWO&si=m4BPSEUZT728ENyb')
     .addButton('Ｈｅｌｌ 👹', 'https://discord.com/invite/vn-g');
