@@ -23,9 +23,9 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('1116621382466412614')
+    .setApplicationId('1198857147350515803')
     .setType('STREAMING')
-    .setURL('https://youtu.be/ZAPi_WGreGM?si=CTCJA53TFT8LeGYW') //Must be a youtube video link 
+    .setURL('https://www.youtube.com/watch?v=ZAPi_WGreGM') //Must be a youtube video link 
     .setState('Belive in yourself, and that all you have!')
     .setName('Solly')
     .setDetails(`Sollyy [${formatTime()}]`)
