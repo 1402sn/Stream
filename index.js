@@ -26,14 +26,14 @@ client.on('ready', async () => {
     .setApplicationId('1198857147350515803')
     .setType('STREAMING')
     .setURL('https://www.youtube.com/watch?v=ZAPi_WGreGM') //Must be a youtube video link 
-    .setState('Belive in yourself, and that all you have!')
+    .setState('')
     .setName('Solly')
     .setDetails(`Sollyy [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1198615531259965470/8694377b76639759687783e4794ae877.jpg?') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('💀') //Text when you hover the Large image
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1198624932284866560/Picsart_24-01-21_20-47-17-338.jpg?') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('') //Text when you hover the Large image
     .setAssetsSmallImage('https://media.discordapp.net/attachments/1116694463658598412/1198615806213378208/ad94c1fc7987e53f6252ffb7bcbdaa3b.jpg?') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('🐧') //Text when you hover the Small image
+    .setAssetsSmallText('') //Text when you hover the Small image
     .addButton('Ｗａｔｃｈ 👀', 'https://youtube.com/playlist?list=PL954J2wbiE1_Q-UzsL96dbvEQpmVrqAWO&si=m4BPSEUZT728ENyb')
     .addButton('Ｈｅｌｌ 👹', 'https://discord.com/invite/vn-g');
 
