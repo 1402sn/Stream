@@ -28,7 +28,7 @@ client.on('ready', async () => {
     .setURL('https://www.youtube.com/watch?v=ZAPi_WGreGM') //Must be a youtube video link 
     .setState('Co the la Solly=)))')
     .setName('Solly')
-    .setDetails(`Sollyy [${formatTime()}]`)
+    .setDetails(`Sollyy ﹝⏳ ${formatTime()}﹞`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1199692072689598535/ad2047d04c04ba6da3e703a24ef85e1d.jpg?') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('ㅤ') //Text when you hover the Large image
@@ -44,7 +44,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `Sollyy [${newTime}] `;
+      const newDetails = ` ﹝⏳ ${newTime}﹞ `;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
