@@ -26,16 +26,16 @@ client.on('ready', async () => {
     .setApplicationId('1198857147350515803')
     .setType('STREAMING')
     .setURL('https://www.youtube.com/watch?v=ZAPi_WGreGM') //Must be a youtube video link 
-    .setState('')
+    .setState('Co the la Solly=)))')
     .setName('Solly')
     .setDetails(`Sollyy [${formatTime()}]`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1199692072689598535/ad2047d04c04ba6da3e703a24ef85e1d.jpg?') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('') //Text when you hover the Large image
+    .setAssetsLargeText('ㅤ') //Text when you hover the Large image
     .setAssetsSmallImage('https://media.discordapp.net/attachments/1116694463658598412/1198875391079751681/588a3d44f03a293f7b993e14c347da46.jpg?') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('') //Text when you hover the Small image
-    .addButton('Ｗａｔｃｈ 👀', 'https://youtube.com/playlist?list=PL954J2wbiE1_Q-UzsL96dbvEQpmVrqAWO&si=m4BPSEUZT728ENyb')
-    .addButton('Ｈｅｌｌ 👹', 'https://discord.com/invite/UsYZRFFfrK');
+    .setAssetsSmallText('ㅤ') //Text when you hover the Small image
+    .addButton('📃', 'https://discord.com/invite/UsYZRFFfrK')
+    .addButton('👀', 'https://www.facebook.com/solly1402');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "online" }); //dnd, online, idle, offline
