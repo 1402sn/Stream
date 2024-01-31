@@ -130,7 +130,7 @@ bot.on('ready', async () => {
     const randomButtonText5 = getRandomElement(randomtext5);
     linkButtonone = getRandomElement(randomLinks);
     const pr = new RichPresence()  
-      .setName(Honkai Star Rail)
+      .setName("Honkai Star Riel")
       .setURL('https://www.youtube.com/watch?v=tE_-be3OnCk')
       .setType(${type}.toUpperCase())
       .setApplicationId("1116621382466412614")
