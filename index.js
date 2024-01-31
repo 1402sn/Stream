@@ -30,9 +30,9 @@ client.on('ready', async () => {
     .setName('Solly')
     .setDetails(`Sollyy ﹝⏳ ${formatTime()}﹞`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1199692072689598535/ad2047d04c04ba6da3e703a24ef85e1d.jpg?') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1201399307279015936/mob-psycho100-mob-psycho.gif?') //You can put links in tenor or discord and etc.
     .setAssetsLargeText(null) //Text when you hover the Large image
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1116694463658598412/1198875391079751681/588a3d44f03a293f7b993e14c347da46.jpg?') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1116694463658598412/1201441749449580564/8ec5250af4bd070ad53cb3e8b32cf29f.gif?') //You can put links in tenor or discord and etc.
     .setAssetsSmallText(null) //Text when you hover the Small image
     .addButton('📃', 'https://discord.com/invite/UsYZRFFfrK')
     .addButton('👀', 'https://www.facebook.com/solly1402');
@@ -44,7 +44,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = ` ﹝⏳ ${newTime}﹞ `;
+      const newDetails = ` 〈⏳ ${newTime}〉 `;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
