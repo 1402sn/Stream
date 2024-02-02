@@ -9,18 +9,10 @@ const textthree = "";
 const textfour = "";
 const type = "STREAMING";
 const pictureGede = [
-"https://media.discordapp.net/attachments/1116694463658598412/1201399281018482799/black-clover-black-clover-movie.gif?",
-      "https://media.discordapp.net/attachments/1116694463658598412/1201399307279015936/mob-psycho100-mob-psycho.gif?",
-      "https://media.discordapp.net/attachments/1116694463658598412/1201399329890521138/gojo-six-eyes.gif?",
-      "https://media.discordapp.net/attachments/1116694463658598412/1201399347066175498/kakashi-obito.gif?",
-      "https://media.discordapp.net/attachments/1116694463658598412/1201399365948936292/garou-cosmic-garou.gif?",
-      "https://media.discordapp.net/attachments/1116694463658598412/1201399383355314266/blue-lock-isagi.gif?",
-      "https://media.discordapp.net/attachments/1116694463658598412/1201399397582376960/f8f1d39b8527f261926ea4d6ca88c43f.gif?",
-      "https://media.discordapp.net/attachments/1116694463658598412/1201473342222368768/vigilante-deku-deku.gif?",
-      "https://media.discordapp.net/attachments/1116694463658598412/1201473357409947698/kaneki-stare.gif?",
+"https://cdn.discordapp.com/attachments/1151373013749596243/1201197868241932378/cd967dadf7e068180499dd0c76124cbf.gif?ex=65c8f1b0&is=65b67cb0&hm=4d2dd0dea5547a9ec4c54637f90a7f6b04e92a6d02fe5c48afd345efcaa113f7&",
                          ];
 const smallpictureGede = [
-"https://media.discordapp.net/attachments/1116694463658598412/1201441749449580564/8ec5250af4bd070ad53cb3e8b32cf29f.gif?",
+  "https://cdn.discordapp.com/attachments/1151373013749596243/1201198369444466748/138e40b3cdca2ecfc509b64d4e7938ec.gif?ex=65c8f228&is=65b67d28&hm=f8dd78fae0164d7b17fec464c79fc11d9a4b7bfc71cd7430626085c475da4362&",
                     ];
 const nameButtonone = "";
 let linkButtonone = "";
@@ -34,15 +26,15 @@ const randomTexts = [
 ];
 
 const randomtext3 = [
-  'Solly',
+  '𝑠𝑝𝑎𝑟𝑘𝑙𝑖𝑛𝑔 𝑒𝑚𝑜𝑡𝑖𝑜𝑛',
+  '𝑡𝑜𝑚𝑜𝑟𝑟𝑜𝑤 𝑥 𝑡𝑜𝑔𝑒𝑡ℎ𝑒𝑟',
+  '𝑖𝑛𝑡𝑒𝑟𝑐𝑜𝑛𝑛𝑒𝑐𝑡𝑒𝑑',
+  '𝑢𝑛𝑡𝑖𝑡𝑙𝑒𝑑'
   
 ];
 
 const randomtext4 = [
-  '❡',
-  '☬',
-  '✞',
-  '✡'
+  'Spotify',
   
 
 ];
@@ -50,7 +42,8 @@ const randomtext4 = [
 const randomtext5 = [];
 
 const randomLinks = [
-  "https://www.facebook.com/dumbohz?mibextid=LQQJ4d",
+  "https://open.spotify.com/user/31i4xf46bf27yxva4fusedgdawau",
+  "https://www.facebook.com/phuong.ahnz/",
 ];
 
 
@@ -117,7 +110,7 @@ bot.on('ready', async () => {
   const roundwNumber = roundToDecimal(getWRandomNumber());
     const month = addZero(months+1);
     const dates = addZero(datee)
-    const resultthree = "Badminton"
+    const resultthree = "???"
 
 
     // Randomize the link and text for the button
@@ -130,24 +123,24 @@ bot.on('ready', async () => {
     const randomButtonText5 = getRandomElement(randomtext5);
     linkButtonone = getRandomElement(randomLinks);
     const pr = new RichPresence()  
-      .setName("Honkai Star Riel")
-      .setURL('https://www.youtube.com/watch?v=tE_-be3OnCk')
-      .setType(${type}.toUpperCase())
-      .setApplicationId("1116621382466412614")
-      .setAssetsLargeImage(${rdpictureGede})
-      .setAssetsSmallImage(${rdsmallpictureGede})
+      .setName(`!!!`)
+      .setURL('https://www.youtube.com/watch?v=XALYHA2OUSE')
+      .setType(`${type}`.toUpperCase())
+      .setApplicationId("1150458998433271951")
+      .setAssetsLargeImage(`${rdpictureGede}`)
+      .setAssetsSmallImage(`${rdsmallpictureGede}`)
       .setAssetsLargeText(`
 🌡${roundedNumber} °C ⋆ 🍃 ${roundwNumber} m/s`)
-      .setAssetsSmallText(ping: ${bot.ws.ping}ms)
-      .setState(: ${randomXX})
-      .setDetails(${randomButtonText3})
+      .setAssetsSmallText(`ping: ${bot.ws.ping}ms`)
+      .setState(`: ${randomXX}`)
+      .setDetails(`${randomButtonText3}`)
       .setStartTimestamp(timestamps.timestampMidnight)
       .setEndTimestamp(timestamps.timestampEndOfDay)
-      .addButton(${randomButtonText}, ${linkButtonone})
-      .addButton(${randomButtonText4}, ${linkButtonone})
+      .addButton(`${randomButtonText}`, `${linkButtonone}`)
+      .addButton(`${randomButtonText4}`, `${linkButtonone}`)
     bot.user.setActivity(pr.toJSON());
   }, getRandomInt(1000, 3000));
-  console.log(${bot.user.tag} Status is showed up !!);
+  console.log(`${bot.user.tag} Status is showed up !!`);
 });
 
 bot.login(process.env['TOKEN']);
