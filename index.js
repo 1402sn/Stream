@@ -24,15 +24,15 @@ client.on('ready', async () => {
 
   const r = new Discord.RichPresence()
     .setApplicationId('1170948236769493052')
-    .setType('PLAYING')
+    .setType('STREAMING')
     .setURL(null) //Must be a youtube video link 
-    .setState('DIscovering...')
-    .setName('maso')
-    .setDetails(`SoundCloud`)
+    .setState(null)
+    .setName(null)
+    .setDetails(null)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1116694463658598412/1202869773323599912/Danleech-Simple-Soundcloud.1024.png?') //You can put links in tenor or discord and etc.
-.setAssetsSmallImage('https://media.discordapp.net/attachments/1116694463658598412/1202869804101541888/noun_Learning_2880992.png?')
-    .setAssetsLargeText('Music') //Text when you hover the Large image
+ .setAssetsLargeImage(null) //You can put links in tenor or discord and etc.
+.setAssetsSmallImage(null)
+    .setAssetsLargeText() //Text when you hover the Large image
     .addButton(null)
 
   client.user.setActivity(r);
@@ -42,7 +42,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `SoundCloud`;
+      const newDetails = `null;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
