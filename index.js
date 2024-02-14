@@ -32,7 +32,7 @@ client.on('ready', async () => {
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage(null) //You can put links in tenor or discord and etc.
 .setAssetsSmallImage(null)
-    .setAssetsLargeText() //Text when you hover the Large image
+    .setAssetsLargeText(null) //Text when you hover the Large image
     .addButton(null)
 
   client.user.setActivity(r);
