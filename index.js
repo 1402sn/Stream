@@ -25,15 +25,14 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('1170948236769493052')
     .setType('STREAMING')
-    .setURL(null) //Must be a youtube video link 
+    .setURL('https://youtu.be/pIWaVJPl0-c?si=BiGXRzI4jjbL3jLx') //Must be a youtube video link 
     .setState(null)
-    .setName(null)
+    .setName(' ')
     .setDetails(null)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage(null) //You can put links in tenor or discord and etc.
 .setAssetsSmallImage(null)
     .setAssetsLargeText(null) //Text when you hover the Large image
-    .addButton(null)
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
