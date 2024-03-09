@@ -54,7 +54,7 @@ poop[Math.floor(Math.random()*poop.length)]; // รูปเล็ก
 change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
     const dwada = change2[Math.floor(Math.random()*change2.length)]; // ชื่อสลับคำ
     const r = new Discord.RichPresence()
-      .setApplicationId('')
+      .setApplicationId('1116621382466412614')
       .setType('STREAMING')
       .setURL('https://www.youtube.com/watch?v=RMW98gOKGZs')
       .setState(`${dwada}`)
